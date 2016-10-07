@@ -19,6 +19,14 @@ form {
 
 }
 
+#fsong:focus {
+  background-color: lightgreen;
+}
+
+input:focus {
+  background-color: lightgreen;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
