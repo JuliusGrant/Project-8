@@ -19,13 +19,17 @@
     </div>
 
     <header>
+      <h1 class="name tag">
+        ACCESSIBLE FROG
+      </h1>
+      <span class="tagline tag">we make awesome music</span>
     </header>
 
     <main>
       <h1 class= "heading">Survey</h1>
       <div class="card">
         <div class="flex">
-          <img class="photo" src= "img/concert01.jpg">
+          <img class="photo" src= "img/concert01.jpg" alt="concert photo">
           <div class="container">
             <form class = "survey">
               <fieldset>
@@ -41,7 +45,7 @@
                 <input type="radio" name="res" id="Sally" value="Sally"> Sally
 
                 <p>What is your favorite album:</p>
-
+                <label for="albums"></label>
                 <select id="albums" name="select">
 
                   <option value="2">A Day Of Old</option>
@@ -58,7 +62,8 @@
                 </select>
 
                 <p>What is your favorite song:</p>
-                <textarea></textarea>
+                <label for="fsong"></label>
+                <textarea id="fsong"></textarea>
               </fieldset>
             </form>
           </div>
@@ -67,21 +72,21 @@
       <h1 class= "heading">Newsletter</h1>
       <div class="card">
         <div class="flex">
-          <img class="photo" src= "img/the_band.jpg">
+          <img class="photo" src= "img/the_band.jpg" alt="band members playing">
             <div class="container">
               <form class="newsletter">
                 <fieldset>
                   <p>Name:
                     <label for="Name"></label>
-                    <input type ="text" name="textfield">
+                    <input type ="text" id="Name" name="textfield">
                   </p>
                   <p>Email:
                     <label for="Email"></label>
-                    <input type ="email" name="textfield">
+                    <input type ="email" id="Email" name="textfield">
                   </p>
                   <p>Retype Email:
-                    <label for="Email"></label>
-                    <input type ="email" name="textfield">
+                    <label for="Remail"></label>
+                    <input type ="email" id="Remail" name="textfield">
                   </p>
                   <button type="submit">Sign Up</button>
                 </fieldset>
